@@ -49,6 +49,7 @@ function PlaySound(id) {
     Animate(id);
     var audio = new Audio("sounds/tom-1.mp3")
     audio.play();
+    
   }
 
   else if (id == "j") {
